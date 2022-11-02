@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hello","Chào bạn", "Bạn khỏe không?", "Có ai ở đó không?","Hey","Hola", "Xin chào", "ngày tốt", "Ekse", "chào"],
+     "responses": ["Chào bạn nha", "Vâng, tôi có thể giúp gì cho bạn?", "xin chào bạn", "Rất vui được gặp bạn", "Mình có thể giúp gì cho bạn?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Tạm biệt", "Hẹn gặp lại bạn", "bye", "Bye Bye"],
+     "responses": ["Tạm biệt bạn!", "Chúc bạn một ngày tốt lành!", "Tạm biệt!", "Hẹn một ngày gặp lại bạn!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Cảm ơn", "Cảm ơn shop", "Cảm ơn bạn", "Thật là hữu ích", "Thật sự cảm ơn", "Cảm ơn bạn đã giúp tôi"],
+     "responses": ["Rất vui được giúp đỡ bạn", "Hân hạnh", "Không có gì đâu bạn", "Đó là trách nhiệm của tôi", "Đó là niềm vinh dự của tôi"]
+    },
+    {"tag": "noanswer",
+     "patterns": ["Sử dụng sao đây?","rreh", "rrrhrgeh","rreêfweehh","rrfefeaeh","rrfnrjnreh","rregeh","egge","rreegwsh","rjejraeJ","êgge","rrgehrweh", " "],
+     "responses": ["Xin lỗi, tôi không hiểu bạn nói gì", "Vui lòng cho tôi biết thêm thông tin", "Không chắc là tôi hiểu", "Tôi vẫn ở đây anh bạn", "Bạn có ý gì?"]
+    },
+    {"tag": "name",
+      "patterns": ["Bạn tên gì?", "Tên của bạn là gì", "Hãy cho tôi biết tên của bạn", "Bạn là ai vậy?", "Tôi muốn biết tên của bạn", "Bạn là ..."],
+      "responses": ["Tôi là Healer, trợ lý của Minh Hoài", "Tên của tôi là Healer", "Bạn có thể gọi tôi là Healer", "Tôi là Healer, bạn có thể gọi tôi là K2", "Healer là tên của tôi"]
+    },
+    {"tag": "options",
+      "patterns": ["Công việc của bạn là gì?", "Bạn có thể giúp gì cho tôi", "Bạn có thể tư vấn món ăn giúp tôi không", "Tư vấn món ăn", "Hãy tư vấn cho tôi về món ăn"],
+      "responses": ["Tôi sẽ giúp bạn order", "Tôi sẽ giúp bạn gọi món"]
+    },
+    {"tag": "order",
+      "patterns": ["Order", "Tôi muốn order", "Tôi muốn gọi món", "Giúp tôi gọi món", "Bạn có biết order không?"],
+      "responses": ["Mời bạn chọn món!", "Tôi có thể giúp", "Tôi sẵn lòng hỗ trợ bạn", "Bạn muốn gọi món gì?"]
+    },
+    {"tag": "food",
+      "patterns": ["Mỳ cay bò", "Mỳ cay hải sản","Mỳ cay hải sản nấm", "Mỳ cay siêu cay cua", "Mỳ cay chay"],
+      "responses": ["Mời bạn chọn cấp độ cay của mình."]
+    },
+    {"tag": "level",
+      "patterns": ["Cấp 2", "Cấp 3","Cấp 4", "Cấp 5", "Cấp 6", "Cấp 7"],
+      "responses": ["Bạn muốn đặt số lượng bao nhiêu?", "Vui lòng cho tôi biết số lượng bạn muốn đặt là bao nhiêu?"]
+    },
+    {"tag": "quality",
+      "patterns": ["2", "3","4", "5", "6", "7", "1"],
+      "responses": ["Cho chúng tôi biết số điện thoại của bạn là gì?", "Vui lòng cho chúng tôi số điện thoại của bạn!"]
+    },
+    {"tag": "numphone",
+      "patterns": ["0387058294", "0387058293","0387058292", "0387058291", "0387058290", "Tôi không có số điện thoại"],
+      "responses": ["Cho tôi biết địa chỉ nơi bạn nhận hàng?", "Địa chỉ nhận hàng của bạn là gì?", "Bạn có thể cho chúng tôi địa chỉ?"]
+    },
+    {"tag": "address",
+      "patterns": ["52 nguyễn du", "04 an dương vương", "11 trường chinh"],
+      "responses": ["Bạn muốn thanh toán online hay trực tiếp?", "Mời bạn chọn hình thức thanh toán? (online|trực tiếp)"]
+    },
+    {"tag": "thanhtoan",
+      "patterns": ["online"],
+      "responses": ["Đây là stk của chúng tôi: 51050044289 BIDV. Vui lòng nhập 'hoàn tất' sau khi đã thanh toán"]
+    },
+    {"tag": "tructiep",
+      "patterns": ["trực tiếp"],
+      "responses": ["Cảm ơn bạn đã xác nhận! Bạn đã đặt hàng thành công 2 phần mỳ cay hải sản cấp độ 4. Cửa hàng sẽ nhanh chóng liên hệ tới số điện thoại và địa chỉ của bạn trong khoảng 15 đến 30 phút. Cảm ơn bạn đã ủng hộ và tin tưởng cửa hàng!."]
+    },
+    {"tag": "taikhoan",
+      "patterns": ["hoàn tất"],
+      "responses": ["Hệ thống đang xác nhận! ... Bạn đã đặt hàng thành công 2 phần mỳ cay hải sản cấp độ 4. Cửa hàng sẽ nhanh chóng liên hệ tới số điện thoại và địa chỉ của bạn trong khoảng 15 đến 30 phút. Cảm ơn bạn đã ủng hộ và tin tưởng cửa hàng!"]
+    },
+    
+    {"tag": "cancel",
+      "patterns": ["Tôi không muốn mua nữa", "Tôi không còn nhu cầu","Sorry! Tôi không còn nhu cầu nữa"],
+      "responses": ["Rất vui vì đã được phục vụ quý khách!", "Không sao, miễn là bạn cảm thấy thoải mái!", "Hy vọng bạn sớm quay lại!", "Cảm ơn bạn vì đã quan tâm cửa hàng!"]
+    }
+  ]
+}

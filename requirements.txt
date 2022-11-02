@@ -1,0 +1,7 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+flask==2.0.2
+nltk==3.6.3
+numpy==1.21.2
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
+gunicorn==20.1.0

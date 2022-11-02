@@ -46,5 +46,5 @@ Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 ## Credits:
 This repo was used for the frontend code:
 https://github.com/hitchcliff/front-end-chatjs
-
 https://github.com/python-engineer/pytorch-chatbot
+https://github.com/ITHealer/chatbot-deployment/settings

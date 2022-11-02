@@ -22,7 +22,10 @@ $ (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
-Modify `intents.json` with different intents and responses for your Chatbot
+## Modify `intents.json` with different intents and responses for your Chatbot
+
+![image](https://user-images.githubusercontent.com/94621494/199390763-91fff19c-26ed-47a6-994f-414db4c7385e.png)
+
 
 Run
 ```
